@@ -8,15 +8,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Combeenation/custom-js-utils.git"
+    "url": "git+https://github.com/Combeenation/webpack-hive-itf-to-obj-plugin.git"
   },
   "keywords": [],
   "author": "",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/Combeenation/custom-js-utils/issues"
+    "url": "https://github.com/Combeenation/webpack-hive-itf-to-obj-plugin/issues"
   },
-  "homepage": "https://github.com/Combeenation/custom-js-utils#readme",
+  "homepage": "https://github.com/Combeenation/webpack-hive-itf-to-obj-plugin#readme",
   "dependencies": {
     "ts-interface-builder": "^0.3.0",
     "ts-interface-checker": "^1.0.0"

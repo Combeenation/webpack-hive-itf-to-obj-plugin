@@ -1,0 +1,24 @@
+{
+  "name": "@combeenation/webpack-hive-itf-to-obj-plugin",
+  "version": "0.0.1",
+  "description": "Combeenation Webpack Hive Interface to Object Plugin",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Combeenation/custom-js-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Combeenation/custom-js-utils/issues"
+  },
+  "homepage": "https://github.com/Combeenation/custom-js-utils#readme",
+  "dependencies": {
+    "ts-interface-builder": "^0.3.0",
+    "ts-interface-checker": "^1.0.0"
+  }
+}

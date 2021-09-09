@@ -12,7 +12,9 @@ class CreateITFObjectPlugin {
   apply(compiler) {
     compiler.hooks.beforeCompile.tap('CreateITFObjectPlugin', () => {
       let onlyRuntimeTypingsChanged = false;
-      const changedFiles = Object.keys(compiler.watchFileSystem.watcher.mtimes);
+      // different watch object when using the WatchIgnorePlugin
+      const watcher = compiler.watchFileSystem.wfs || compiler.watchFileSystem;
+      const changedFiles = Object.keys(watcher.watcher.mtimes);
       if (changedFiles.length > 0) {
         // Mainly required because it's detected as change, even though the watcher should ignore it
         onlyRuntimeTypingsChanged = changedFiles.every(filepath => filepath.indexOf(generatedFileExtension) > -1);

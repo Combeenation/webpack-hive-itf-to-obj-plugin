@@ -1,3 +1,5 @@
 dist/
 docs_local/
 node_modules/
+
+*.tgz

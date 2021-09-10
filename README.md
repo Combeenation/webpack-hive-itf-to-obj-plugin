@@ -18,4 +18,4 @@ npm install --save-dev @combeenation/webpack-hive-itf-to-obj-plugin
 
 The plugin should be added to every webpack config for Combeenation custom JS applications.
 
-For detailed documentation why this is required see http://docs.combeenation.com/custom-js-utils/
+For detailed documentation why this is required see [according custom JS utils docs](http://docs.combeenation.com/custom-js-utils/pages/Documentation/hive-itf-registration.html)

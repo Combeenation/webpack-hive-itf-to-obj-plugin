@@ -1,6 +1,6 @@
 {
   "name": "@combeenation/webpack-hive-itf-to-obj-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Combeenation Webpack Hive Interface to Object Plugin",
   "main": "index.js",
   "files": [
